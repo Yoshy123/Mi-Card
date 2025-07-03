@@ -1,12 +1,38 @@
-# React + Vite
+# 💼 Mi Card de Presentación - @La_Rikura
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Una simple pero impactante **card de presentación personal** hecha con React y TailwindCSS. Este proyecto presenta una interfaz visual moderna con enlaces a redes sociales, una imagen destacada y una introducción llamativa.
 
-Currently, two official plugins are available:
+## 🌐 Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+> ⚠️ Este proyecto es estático, asegúrate de ejecutar un servidor local para visualizarlo correctamente (por ejemplo, con Vite o cualquier servidor de desarrollo React).
 
-## Expanding the ESLint configuration
+## 📸 Captura
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![screenshot](./proyecto.jpg) <!-- Reemplaza esto con una imagen real del sitio si lo deseas -->
+
+---
+
+## 🚀 Tecnologías Usadas
+
+- 🟦 React
+- 🌬️ TailwindCSS
+- 📦 Vite
+- 🧩 SVG Sprites para íconos de redes
+
+---
+
+## 📁 Estructura del Proyecto
+
+📦 src/
+
+├── App.jsx # Componente principal con el diseño de la tarjeta
+
+├── main.jsx # Punto de entrada del proyecto
+
+├── index.css # Estilos base importando TailwindCSS
+
+├── sprite.svg # Sprite SVG con íconos para redes sociales
+
+└── assets/ # (opcional) Puedes mover aquí imágenes como riko2.jpg
+index.html # Archivo HTML base
+
